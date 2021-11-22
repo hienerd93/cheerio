@@ -1,0 +1,10 @@
+html
+  head
+    title= title
+  body
+    if(content)
+      ul
+        each obj in content
+          li
+            p=obj.title
+            p=obj.url
